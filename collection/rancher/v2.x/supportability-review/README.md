@@ -12,7 +12,7 @@ The tool has to run on node with the following requirements
                 
       - Access to Internet to download the collect.sh script
       
-      -Access to the repository ghcr.io/rancherlabs
+      - Access to the repository ghcr.io/rancherlabs
                 
   - Packages:  
       - Docker
@@ -20,7 +20,7 @@ The tool has to run on node with the following requirements
       - wget or curl tool
    
   - Permissions: 
-      - Rancher token (https://ranchermanager.docs.rancher.com/v2.6/reference-guides/user-settings/api-keys#docusaurus_skipToContent_fallback)
+      - Rancher bearer token (https://ranchermanager.docs.rancher.com/v2.6/reference-guides/user-settings/api-keys#docusaurus_skipToContent_fallback)
 
 ## Steps
 
