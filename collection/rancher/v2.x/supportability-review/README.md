@@ -8,12 +8,16 @@ Ensure business continuity with ongoing reviews and advice. Get faster resolutio
 
 The tool has to run on node with the following requirements
   - Connectivity: 
-                - access to Rancher URL
-                - access to internet to download the scripts
+      - Access to Rancher URL
+                
+      - Access to Internet to download the collect.sh script
+      
+      -Access to the repository ghcr.io/rancherlabs
                 
   - Packages:  
-                - docker installed
-                - wget or curl tool
+      - Docker
+       
+      - wget or curl tool 
 
 ## Steps
 
