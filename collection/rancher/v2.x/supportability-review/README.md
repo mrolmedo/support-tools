@@ -17,7 +17,10 @@ The tool has to run on node with the following requirements
   - Packages:  
       - Docker
        
-      - wget or curl tool 
+      - wget or curl tool
+   
+  - Permissions: 
+      - Rancher token (https://ranchermanager.docs.rancher.com/v2.6/reference-guides/user-settings/api-keys#docusaurus_skipToContent_fallback)
 
 ## Steps
 
