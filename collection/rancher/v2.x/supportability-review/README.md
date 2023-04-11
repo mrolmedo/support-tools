@@ -4,6 +4,17 @@ Note: The files in this folder are mirrored from another location, do not edit d
 
 Ensure business continuity with ongoing reviews and advice. Get faster resolutions, prevent incidents, minimize drift whilst staying conformant with our validated configurations.
 
+## Pre-requisites
+
+The tool has to run on node with the following requirements
+  - Connectivity: 
+                - access to Rancher URL
+                - access to internet to download the scripts
+                
+  - Packages:  
+                - docker installed
+                - wget or curl tool
+
 ## Steps
 
 1. Download the `collect.sh` script on a Linux node with "docker" installed.
