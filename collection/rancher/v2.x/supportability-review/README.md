@@ -10,7 +10,7 @@ The tool has to run on node with the following requirements
   - Connectivity: 
       - Access to Rancher URL
                 
-      - Access to Internet to download the collect.sh script
+      - Access to https://raw.githubusercontent.com/ to download the collect.sh script
       
       - Access to the repository ghcr.io/rancherlabs
                 
