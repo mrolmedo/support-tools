@@ -25,7 +25,7 @@ Please review the below files for details:
                 
       - Access to https://raw.githubusercontent.com/ to download the collect.sh script
       
-      - Access to the repository ghcr.io/rancherlabs
+      - Access to the repository ghcr.io/rancherlabs to download the image 
                 
   - Packages:  
       - Docker 
