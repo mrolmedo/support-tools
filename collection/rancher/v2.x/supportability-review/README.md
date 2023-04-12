@@ -5,7 +5,7 @@ Note: The files in this folder are mirrored from another location, do not edit d
 Ensure business continuity with ongoing reviews and advice. Get faster resolutions, prevent incidents, minimize drift whilst staying conformant with our validated configurations.
 
 ## Notes
-This script is intended to collect info from Rancher upstream cluster and dowstream clusters
+This script is intended to collect info from Rancher upstream cluster and downstream clusters
 - loremipsum
 - loremipsum
 
