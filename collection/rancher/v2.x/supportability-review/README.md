@@ -15,12 +15,12 @@ The tool has to run on node with the following requirements
       - Access to the repository ghcr.io/rancherlabs
                 
   - Packages:  
-      - Docker
+      - Docker 
        
       - wget or curl tool
    
   - Permissions: 
-      - Rancher bearer token (https://ranchermanager.docs.rancher.com/v2.6/reference-guides/user-settings/api-keys#docusaurus_skipToContent_fallback)
+      - Rancher bearer token [How to create token](https://ranchermanager.docs.rancher.com/v2.6/reference-guides/user-settings/api-keys#docusaurus_skipToContent_fallback)
 
 ## How to use
 
