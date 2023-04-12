@@ -22,7 +22,7 @@ The tool has to run on node with the following requirements
   - Permissions: 
       - Rancher bearer token[^1]  
       
-      [How to create token](https://ranchermanager.docs.rancher.com/v2.6/reference-guides/user-settings/api-keys#docusaurus_skipToContent_fallback)
+      [How to generate a token](https://ranchermanager.docs.rancher.com/v2.6/reference-guides/user-settings/api-keys#docusaurus_skipToContent_fallback)
 
 ## How to use
 
