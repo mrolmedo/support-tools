@@ -20,7 +20,9 @@ The tool has to run on node with the following requirements
       - wget or curl tool
    
   - Permissions: 
-      - Rancher bearer token [How to create token](https://ranchermanager.docs.rancher.com/v2.6/reference-guides/user-settings/api-keys#docusaurus_skipToContent_fallback)
+      - Rancher bearer token[^1]  
+      
+      [How to create token](https://ranchermanager.docs.rancher.com/v2.6/reference-guides/user-settings/api-keys#docusaurus_skipToContent_fallback)
 
 ## How to use
 
@@ -48,3 +50,5 @@ Please review the below files for details:
 
 - [cluster-collector.sh](./cluster-collector.sh)
 - [nodes-collector.sh](./nodes-collector.sh)
+
+[^1]
