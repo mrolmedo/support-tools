@@ -5,9 +5,9 @@ Note: The files in this folder are mirrored from another location, do not edit d
 Ensure business continuity with ongoing reviews and advice. Get faster resolutions, prevent incidents, minimize drift whilst staying conformant with our validated configurations.
 
 ## Notes
-This script is intended to collect info from Rancher upstream cluster and downstream clusters
-- loremipsum
-- loremipsum
+This script is intended to collect info from Rancher upstream cluster and RKE1 managed downstream clusters
+- loremipsum ##add additional information
+- loremipsum ##add additional information
 
 
 ### What's being collected?
@@ -33,9 +33,8 @@ The tool has to run on node with the following requirements
       - wget or curl tool
    
   - Permissions: 
-      - Rancher bearer token[^1]  
+      - Rancher bearer token.  [How to generate a token](https://ranchermanager.docs.rancher.com/v2.6/reference-guides/user-settings/api-keys#docusaurus_skipToContent_fallback)
       
-      [How to generate a token](https://ranchermanager.docs.rancher.com/v2.6/reference-guides/user-settings/api-keys#docusaurus_skipToContent_fallback)
 
 ## How to use
 
@@ -52,12 +51,12 @@ The tool has to run on node with the following requirements
  
    ```
 3. Run the collection script
-The script needs to be run directly on the node, using the root user or sudo
+The script needs to be run directly on the node, using the root user or a user in the docker group. Ensure the docker daemon is running.
 ```
  ./collect.sh
 ```
 4. Share the generated support bundle with SUSE Rancher Support Team.
-Output will be written  as a tar.gz archive named
+Output will be written  as a tar.gz archive in the same path where the script is run.
 
 
 
