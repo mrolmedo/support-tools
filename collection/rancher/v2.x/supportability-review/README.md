@@ -19,7 +19,7 @@ Please review the below files for details:
 
 ## Pre-requisites
 
-The tool has to run on node with the following requirements
+[] The tool has to run on node with the following requirements
   - Connectivity: 
       - Access to Rancher URL
                 
@@ -32,18 +32,24 @@ The tool has to run on node with the following requirements
        
       - wget or curl tool
    
-  - Permissions: 
+[] Permissions: 
       - Rancher bearer token.  [How to generate a token](https://ranchermanager.docs.rancher.com/v2.6/reference-guides/user-settings/api-keys#docusaurus_skipToContent_fallback)
       
 
 ## How to use
 
 1. Download the `collect.sh` script on a Linux node and make it executable.
+
+    Using wget
     ```shell
     wget https://raw.githubusercontent.com/rancherlabs/support-tools/master/collection/rancher/v2.x/supportability-review/collect.sh
     chmod +x collect.sh
     ```
-
+   Using curl
+   ```shell
+    curl -OLs https://raw.githubusercontent.com/rancherlabs/support-tools/master/collection/rancher/v2.x/supportability-review/collect.sh
+    chmod +x collect.sh
+    ```
 2. Set the required environment variables.
     ```shell
    export RANCHER_URL="https://rancher.example.com"
@@ -58,6 +64,10 @@ The script needs to be run directly on the node, using the root user or a user i
 4. Share the generated support bundle with SUSE Rancher Support Team.
 Output will be written  as a tar.gz archive in the same path where the script is run.
 
+## Flags
+Rancher Supportability Review
+Usage: collect.sh [ --cluster --cluster]
 
+All flags are optional.
 
 [^1]
