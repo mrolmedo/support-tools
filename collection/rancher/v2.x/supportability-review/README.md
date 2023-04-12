@@ -9,6 +9,14 @@ This script is intended to collect info from Rancher upstream cluster and downst
 - loremipsum
 - loremipsum
 
+
+### What's being collected?
+
+Please review the below files for details:
+
+- [cluster-collector.sh](./cluster-collector.sh)
+- [nodes-collector.sh](./nodes-collector.sh)
+
 ## Pre-requisites
 
 The tool has to run on node with the following requirements
@@ -49,12 +57,8 @@ The script needs to be run directly on the node, using the root user or sudo
  ./collect.sh
 ```
 4. Share the generated support bundle with SUSE Rancher Support Team.
+Output will be written  as a tar.gz archive named
 
-### What's being collected?
 
-Please review the below files for details:
-
-- [cluster-collector.sh](./cluster-collector.sh)
-- [nodes-collector.sh](./nodes-collector.sh)
 
 [^1]
