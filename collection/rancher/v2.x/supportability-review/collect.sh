@@ -4,8 +4,7 @@ if [ "${DEBUG}" == "true" ]; then
   set -x
 fi
 
-#REGISTRY=${REGISTRY:-"ghcr.io/rancherlabs"}
-REGISTRY=${REGISTRY:-"ghcr.io/mrolmedo"}
+REGISTRY=${REGISTRY:-"ghcr.io/rancherlabs"}
 REPO=${REPO:-"supportability-review-collector"}
 TAG=${TAG:-"latest"}
 
