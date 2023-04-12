@@ -33,7 +33,8 @@ Please review the below files for details:
       - wget or curl tool
    
 [] Permissions: 
-      - Rancher bearer token.  [How to generate a token](https://ranchermanager.docs.rancher.com/v2.6/reference-guides/user-settings/api-keys#docusaurus_skipToContent_fallback)
+      - ⚠️ 🥦 💥 Generate Rancher bearer token. Truism, If the user that generates the token does not have permissions over the cluster, the script will fail. 
+      [How to generate a token]((https://ranchermanager.docs.rancher.com/reference-guides/user-settings/api-keys#docusaurus_skipToContent_fallback)
       
 
 ## How to use
