@@ -19,7 +19,8 @@ Please review the below files for details:
 
 ## Pre-requisites
 
-[] The tool has to run on node with the following requirements
+
+- [ ] **Node requirements**
   - Connectivity: 
       - Access to Rancher URL
                 
@@ -28,11 +29,11 @@ Please review the below files for details:
       - Access to the repository ghcr.io/rancherlabs to download the image 
                 
   - Packages:  
-      - Docker 
+      - Docker installed
        
       - wget or curl tool
    
-[] Permissions: 
+- [ ] **Permissions** 
       - ⚠️ 🥦 💥 Generate Rancher bearer token. Truism, If the user that generates the token does not have permissions over the cluster, the script will fail. 
       [How to generate a token]((https://ranchermanager.docs.rancher.com/reference-guides/user-settings/api-keys#docusaurus_skipToContent_fallback)
       
