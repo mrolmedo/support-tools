@@ -35,7 +35,7 @@ Please review the below files for details:
 - [ ] **Permissions** 
       - ⚠️ 🥦 💥 Generate Rancher Bearer Token.  [How to generate a token](https://ranchermanager.docs.rancher.com/reference-guides/user-settings/api-keys#docusaurus_skipToContent_fallback).
       
-     :no_mouth: A truism is that the user that generates the token will collect only clusters allowed to.
+     :no_mouth: A truism is that the user that generates the token will collect only clusters allowed to. The user has to be owner, as member it will fail[^1]
       
 ## How to use
 
@@ -80,6 +80,11 @@ Usage: collect.sh [ --cluster  <cluster-name> --cluster <cluster-id>]
 
 All flags are optional.
 ```
-
-
-
+## FAQ
+```
+INFO     | sscan |__main__:collect_info_from_clusters_using_rancher_api:288 - ***No of clusters detected: 2***
+```
+```
+ERRO[0000] Preflight checks failed
+ERRO[0000] could not retrieve list of pods: pods is forbidden: User "u-mrhdf" cannot list resource "pods" in API group "" in the namespace "kube-system"
+```
