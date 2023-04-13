@@ -5,9 +5,7 @@ Note: The files in this folder are mirrored from another location, do not edit d
 Ensure business continuity with ongoing reviews and advice. Get faster resolutions, prevent incidents, minimize drift whilst staying conformant with our validated configurations.
 
 ## Notes
-This script is intended to collect info from Rancher upstream cluster and RKE1 managed downstream clusters [^1]
-- loremipsum ##add additional information
-- loremipsum ##add additional information
+This script is intended to collect info from Rancher upstream cluster and RKE1 managed downstream clusters [CF Additional use]
 
 ### What's being collected?
 
@@ -81,10 +79,18 @@ Usage: collect.sh [ --cluster  <cluster-name> --cluster <cluster-id>]
 All flags are optional.
 ```
 ## FAQ
+1) Racher DS cluster are X but the scann does not detect all
 ```
 INFO     | sscan |__main__:collect_info_from_clusters_using_rancher_api:288 - No of clusters detected: 2
 ```
+The user (Bearer Token) does not have access to that cluster.
+
+2) Access forbidden
 ```
 ERRO[0000] Preflight checks failed
 ERRO[0000] could not retrieve list of pods: pods is forbidden: User "u-mrhdf" cannot list resource "pods" in API group "" in the namespace "kube-system"
 ```
+The user (Bearer Token) has access but not full permission. ## Member vs Owner
+
+## Additional use
+-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
