@@ -82,7 +82,7 @@ All flags are optional.
 ```
 ## FAQ
 ```
-INFO     | sscan |__main__:collect_info_from_clusters_using_rancher_api:288 - ***No of clusters detected: 2***
+INFO     | sscan |__main__:collect_info_from_clusters_using_rancher_api:288 - No of clusters detected: 2
 ```
 ```
 ERRO[0000] Preflight checks failed
