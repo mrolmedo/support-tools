@@ -59,7 +59,7 @@ Please review the below files for details:
    ```
 3. **Run the collection script**
 
- The script needs to be run directly on the node, using the root user or a user in the docker group. Ensure the docker daemon is running.
+ The script needs to be run directly on the node, using the root user or a user in the ```docker group```. Ensure the docker daemon is running.
   - 3.1 Collect all clusters
 ```
  ./collect.sh
