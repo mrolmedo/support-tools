@@ -90,7 +90,7 @@ The user (Bearer Token) does not have access to that cluster.
 ERRO[0000] Preflight checks failed
 ERRO[0000] could not retrieve list of pods: pods is forbidden: User "u-mrhdf" cannot list resource "pods" in API group "" in the namespace "kube-system"
 ```
-The user (Bearer Token) has access but not full permission. ## Member vs Owner
+The user (Bearer Token) has access but not full permission. ## Cluster member vs Owner
 
 ## Additional use
 The script could be run in RKE1 or K3s clusters not managed by Rancher
