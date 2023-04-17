@@ -79,7 +79,7 @@ Usage: collect.sh [ --cluster  <cluster-name> --cluster <cluster-id>]
 All flags are optional.
 ```
 ## FAQ
-1) Racher DS cluster are X but the scann does not detect all
+1) Rancher downstrean clusters are X but the scan does not detect all
 ```
 INFO     | sscan |__main__:collect_info_from_clusters_using_rancher_api:288 - No of clusters detected: 2
 ```
