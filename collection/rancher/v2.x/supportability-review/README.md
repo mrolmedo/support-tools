@@ -93,6 +93,18 @@ ERRO[0000] could not retrieve list of pods: pods is forbidden: User "u-mrhdf" ca
 The user (Bearer Token) has access but not full permission. ## Member vs Owner
 
 ## Additional use
+The script could be run in RKE1 or K3s clusters not managed by Rancher
+### Note
 
-To describe the use with kubeconfig for clusters not managed by Rancher.
--"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+1. **Download the `collect.sh` script on a Linux node and make it executable**
+2. **Set the required environment variables**
+    ```shell
+   export KUBECONFIG="/pathto/kubeconfig.yaml"
+   ```
+3. **Run the collection script**
+
+ The script needs to be run directly on the node, using the root user or a user in the ```docker group```. Ensure the docker daemon is running.
+```
+ ./collect.sh
+```
+
