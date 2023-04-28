@@ -33,7 +33,7 @@ Please review the below files for details:
 - [ ] **Permissions** 
       - ⚠️ 🥦 💥 Generate Rancher Bearer Token.  [How to generate a token](https://ranchermanager.docs.rancher.com/reference-guides/user-settings/api-keys#docusaurus_skipToContent_fallback).
       
-     :no_mouth: A truism is that the user that generates the token will collect only clusters allowed to. The user has to be owner, as a member it will fail[CF FAQ]
+     :no_mouth: A truism is that the user that generates the token will collect only clusters allowed to. The user has to be owner, as a member it will fail.
       
 ## How to use
 
